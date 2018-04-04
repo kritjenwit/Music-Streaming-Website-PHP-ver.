@@ -1,0 +1,87 @@
+@import "hover-img.css";
+body {
+    background-color: #333;
+    margin-top: 40px;
+}
+
+/* New Release */
+
+#new-release img {
+    width: 70px;
+    height: 70px;
+}
+
+#new-release table thead {
+    color: white;
+}
+
+#new-release table td a {
+    text-decoration: none;
+    color: white;
+}
+
+#new-release table td a.music:hover {
+    text-decoration: none;
+    color: white;
+    border: #007bff 1px solid;
+    padding: 5px;
+    background-color: #007bff;
+    border-radius: 4px;
+}
+
+#new-release table td a.artist:hover {
+    text-decoration: none;
+    color: white;
+    border: #28a745 1px solid;
+    padding: 5px;
+    background-color: #28a745;
+    border-radius: 4px;
+}
+
+#new-release table td img:hover {
+    padding: 5px;
+}
+
+#album img {
+    width: 250px;
+    height: 250px;
+}
+
+/* Album part */
+
+/* Audio Controller part */
+
+#tracker{
+	position:relative;
+	width:100%;
+}
+
+#progressBar { 
+   width:80%;
+   margin-left:2%;
+   margin-bottom:20px;
+   margin-top:9px;
+   height:10px;
+   background:url(../img/progress_bg.png) no-repeat;
+   float:left;
+}
+
+#progress {
+   background:url(../img/progress.png) no-repeat;
+   height:10px;
+   display:inline-block;
+}
+
+#duration {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    padding: 4px 8px;
+    /* background: #000; */
+    color: white;
+    border-radius: 5px;
+}
+
+footer {
+    margin-bottom: 25px;
+}

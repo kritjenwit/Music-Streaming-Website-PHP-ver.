@@ -1,0 +1,45 @@
+body {
+    background-color: lightgrey;
+}
+
+.navbar {
+    font-size: 20px;
+}
+
+#header-part {
+    background-image: url("../img/index-jumbo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.btn-xl {
+    padding: 20px;
+}
+
+#neon-title {
+    margin-top: 100px;
+}
+
+img {
+    width: 280px;
+    height: auto;
+}
+
+.row {
+    justify-content: center;
+}
+
+#neon-feature {
+    background-color: rgb(110, 110, 110);
+}
+
+#about-us {
+    background-color: grey;
+}

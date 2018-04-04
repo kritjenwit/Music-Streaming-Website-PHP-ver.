@@ -1,0 +1,7 @@
+@import "template-for-all.css";
+
+body{
+    margin-top: 10.5%;
+    background-image: url("../img/forgot-pass-bg.jpeg");
+    background-size: cover;
+}

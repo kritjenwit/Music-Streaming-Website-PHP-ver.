@@ -1,0 +1,22 @@
+/* background color */
+
+body {
+    background-color: #333;
+    height: 100%;
+}
+
+
+
+/* navbar */
+
+#navigation .navbar-brand a {
+    color: rgb(0, 191, 255);
+}
+
+#navigation a {
+    font-size: 20px;
+}
+
+footer p{
+    color: rgb(0, 191, 255);
+}
